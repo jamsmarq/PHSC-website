@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Satoshi, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: #1e1e1e;
+  background-color: #FEFFFE;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.blue-to-red {
+    color: linear-gradient(90deg, #0737A4, 0%, #BC1532, 100%);
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    /* letter-spacing: 0.5px; */
+}
+
+.about-background {
+    background-image: url('/about-grid.png');
+}
