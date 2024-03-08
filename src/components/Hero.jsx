@@ -15,11 +15,13 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Hero 3d Assets */}
       <div className="relative flex justify-between w-full mx-auto max-w-screen-2xl">
         <img src="hero-left.png" width="405" height="405" className="absolute -left-20 -top-48" />
         <img src="hero-right.png" width="405" height="405" className="absolute -right-20 -top-48" />
       </div>
 
+      {/* Stats Data */}
       <div className="relative top-20 flex justify-between items-center rounded-full border-2 py-8 px-28 w-fit mx-auto max-w-screen-2xl gap-x-16 border-eerie-black bg-white bg-opacity-40 backdrop-blur-md">
         <div className="flex gap-x-2 items-center">
           <img src="stats-first.png" width="56" height="56" className="" />
