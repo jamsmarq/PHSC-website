@@ -8,6 +8,7 @@ import Action from "../components/Action";
 import Questions from "../components/Questions";
 import Others from "../components/Others";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -20,7 +21,7 @@ const Homepage = () => {
     <Action />
     <Questions />
     <Others />
-    <Contact />
+    {/* <Contact /> */}
     </>
   )
 }

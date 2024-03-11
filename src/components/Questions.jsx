@@ -21,7 +21,7 @@ const Questions = () => {
             <div className={`h-fit select-none px-16 py-8 w-full space-y-4 cursor-pointer ${index != (QuestionsData.length - 1) && "border-b-[0.15rem] border-eerie-black"}`} onClick={() => openQuestion(index)}>
               <div className="flex items-center w-full justify-between">
                 <p className="font-bold text-xl">{question[0]}</p>
-                <img src="questions-arrow.png" width="20" height="20" className="" />
+                <img src="questions-arrow.png" width="20" height="20" className={`${openIndex == index && "rotate-180"}`} />
               </div>
               <p className={`font-medium text-davy-gray text-lg ${openIndex != index && "hidden"}`}>{question[1]}</p>
             </div>

@@ -7,7 +7,7 @@ const Tracks = () => {
         <h2 className="font-black text-3xl w-fit bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Transferrable skills?</h2>
         <p className="text-xl font-medium">Knowledge that are not usually taught in classrooms.</p>
       </div>
-      <div className="grid md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-8 w-fit mx-auto">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-8 w-fit mx-auto relative">
         <div className="w-fit h-fit space-y-3 p-5 col-span-1 rounded-2xl border-[0.15rem] border-eerie-black bg-[#FFEFEF]">
           <img src="tracks-first.png" width="45" height="45" className="" />
           <p className="text-xl font-bold">Business and Finance</p>
@@ -53,6 +53,7 @@ const Tracks = () => {
           <p className="text-xl font-bold">Business and Finance</p>
           <p className="font-medium text-davy-gray w-[19rem]">Essential financial literacy, budgeting, and entrepreneurial skills for personal and professional success.</p>
         </div>
+        <span className="rounded-full h-96 w-96 bg-[#0400e0] blur-[200px] opacity-50 absolute top-32 left-20 -z-10"></span>
       </div>
     </div>
   )
