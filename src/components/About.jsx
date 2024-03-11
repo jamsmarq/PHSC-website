@@ -16,7 +16,7 @@ const About = () => {
 			</div>
 
 			<div className="relative -top-20 space-y-48">
-				<div className="flex justify-center items-center relative">
+				<div className="flex justify-center items-center relative space-x-10">
 					<div className="flex max-w-screen-xl px-4 md:px-6 xl:px-8">
 						<div className="flex flex-col space-y-8">
 							<h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Be a well-rounded learner and a practical individual</h2>
@@ -67,30 +67,30 @@ const About = () => {
 					<img src="about-right.png" width="620" height="620" className="" />
 				</div>
 
-				<div className="flex justify-center items-center relative -top-20">
+				<div className="flex justify-center items-center relative -top-20 space-x-10">
 					<img src="about-left.png" width="620" height="620" className="" />
 					<div className="flex max-w-screen-xl px-4 md:px-6 xl:px-8">
 						<div className="flex flex-col space-y-8">
 							<h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Take the next step to learn and join the community</h2>
 							<div className="space-y-6">
 								<div className="h-fit space-x-8 flex items-center">
-									<span className={` w-[0.4rem] rounded-full bg-[#8496F1] h-[11rem]`}></span>
+									<span className={`w-[0.4rem] rounded-full bg-[#8496F1] h-[11rem]`}></span>
 									<div className="space-y-4 h-fit">
-										<div className="flex items-center gap-x-2 hover:cursor-pointer">
-											<img src="about-third.png" width="30" height="30" className="" />
-											<p className="font-bold text-xl">Know executive functioning skills</p>
+										<div className="flex flex-col gap-y-2">
+											<img src="about-fifth.png" width="35" height="35" className="" />
+											<p className="font-bold text-xl">Hop on our <a href="example.com" target="_blank" className="text-[#2044FF]">Discord </a> server</p>
 										</div>
-										<p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+										<p className={`relative font-medium text-davy-gray w-[24rem]`}>Discord serves as the main platform for community engagement because it has ample initial features.</p>
 									</div>
 								</div>
 								<div className="h-fit space-x-8 flex items-center">
-									<span className={`w-[0.4rem] rounded-full bg-eerie-black h-[11rem]`}></span>
+									<span className={`w-[0.4rem] rounded-full bg-[#0E88E2] h-[11rem]`}></span>
 									<div className="space-y-4 h-fit">
-										<div className="flex items-center gap-x-2 hover:cursor-pointer">
-											<img src="about-fourth.png" width="30" height="30" className="" />
-											<p className="font-bold text-xl">Promote Valuable Personal Growth</p>
+										<div className="flex flex-col gap-y-2">
+											<img src="about-sixth.png" width="35" height="35" className="" />
+											<p className="font-bold text-xl">Follow our <a href="example.com" target="_blank" className="text-[#2044FF]">Facebook </a> page</p>
 										</div>
-										<p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+										<p className={`relative font-medium text-davy-gray w-[24rem]`}>We use Facebook for the latest updates, news, and events because it's widely used by Filipino students.</p>
 									</div>
 								</div>
 							</div>
