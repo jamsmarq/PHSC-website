@@ -13,10 +13,10 @@ const Others = () => {
   }
 
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 mx-auto mt-32 space-y-12">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12">
       <h2 className="font-black text-3xl w-fit mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Community Miscellaneuos</h2>
-      <div className="mx-auto flex space-x-10 w-fit">
-        <div className="w-fit flex items-center space-x-6 rounded-3xl border-eerie-black bg-[#FFEFEF] border-[0.15rem] p-10">
+      <div className="mx-auto flex space-x-8 w-full">
+        <div className="w-full flex items-center space-x-6 rounded-3xl border-eerie-black bg-[#FFEFEF] border-[0.15rem] p-10">
           <img src="hero-left.png" width="130" height="130" className="" />
           <div className="flex flex-col space-y-4">
             <p className="text-xl font-bold">Collaboration and Partnership</p>
@@ -27,7 +27,7 @@ const Others = () => {
             </button>
           </div>
         </div>
-        <div className="w-fit flex items-center space-x-6 rounded-3xl border-eerie-black bg-[#EFF6FF] border-[0.15rem] p-10">
+        <div className="w-full flex items-center space-x-6 rounded-3xl border-eerie-black bg-[#EFF6FF] border-[0.15rem] p-10">
           <img src="hero-left.png" width="130" height="130" className="" />
           <div className="flex flex-col space-y-4">
             <p className="text-xl font-bold">Mentors & Volunteers</p>

@@ -15,9 +15,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className="relative -top-20 space-y-48">
-        <div className="flex justify-center items-center relative space-x-10">
-          <div className="flex max-w-screen-xl px-4 md:px-6 xl:px-8">
+      <div className="relative -top-20 space-y-48 max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto">
+        <div className="flex justify-between items-center relative space-x-10">
+          <div className="flex">
             <div className="flex flex-col space-y-8">
               <h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Be a well-rounded learner and a practical individual</h2>
               <div className="space-y-6">
@@ -68,9 +68,9 @@ const About = () => {
           <span className="rounded-full h-96 w-96 bg-[#00B8E0] blur-[200px] opacity-50 absolute -right-20 -z-10"></span>
         </div>
 
-        <div className="flex justify-center items-center relative -top-20 space-x-10">
+        <div className="flex justify-between items-center relative -top-20 space-x-10">
           <img src="about-left.png" width="620" height="620" className="" />
-          <div className="flex max-w-screen-xl px-4 md:px-6 xl:px-8">
+          <div className="flex">
             <div className="flex flex-col space-y-8">
               <h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Take the next step to learn and join the community</h2>
               <div className="space-y-6">
