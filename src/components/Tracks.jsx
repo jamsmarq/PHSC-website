@@ -2,7 +2,7 @@ import React from "react";
 
 const Tracks = () => {
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12" id="tracks">
       <div className="flex items-center space-x-4 mx-auto w-fit">
         <h2 className="font-black text-3xl w-fit bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Transferrable skills?</h2>
         <p className="text-xl font-medium">Knowledge that are not usually taught in classrooms.</p>
@@ -53,7 +53,7 @@ const Tracks = () => {
           <p className="text-xl font-bold">Business and Finance</p>
           <p className="font-medium text-davy-gray w-[19rem]">Essential financial literacy, budgeting, and entrepreneurial skills for personal and professional success.</p>
         </div>
-        <span className="rounded-full h-96 w-96 bg-[#0400e0] blur-[200px] opacity-50 absolute top-32 left-20 -z-10"></span>
+        <span className="rounded-full h-72 w-72 bg-[#0400e0] blur-[200px] opacity-50 absolute top-32 left-20 -z-10"></span>
       </div>
     </div>
   )

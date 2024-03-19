@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <>
-      <div className="w-full h-fit bg-cover about-background pt-64 pb-48">
+      <div className="w-full h-fit bg-cover about-background pt-64 pb-48" id="about">
         <div className="mx-auto w-fit h-fit flex items-center space-x-10 max-w-screen-xl px-4 md:px-6 xl:px-8">
           <div className="bg-eerie-black w-[0.5rem] h-[16rem] rounded-full bg-gradient-to-b  from-[#BC1531] to-[#0737A4]"></div>
           <div className="space-y-4">
@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </div>
           <img src="about-right.png" width="620" height="620" className="" />
-          <span className="rounded-full h-96 w-96 bg-[#00B8E0] blur-[200px] opacity-50 absolute -right-20 -z-10"></span>
+          <span className="rounded-full h-72 w-72 bg-[#00B8E0] blur-[200px] opacity-50 absolute -right-20 -z-10"></span>
         </div>
 
         <div className="flex justify-between items-center relative -top-20 space-x-10">
@@ -97,7 +97,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <span className="rounded-full h-96 w-96 bg-[#A6E000] blur-[200px] opacity-50 absolute -left-20 -z-10"></span>
+          <span className="rounded-full h-72 w-72 bg-[#A6E000] blur-[200px] opacity-50 absolute -left-20 -z-10"></span>
         </div>
       </div>
     </>

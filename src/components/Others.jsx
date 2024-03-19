@@ -13,7 +13,7 @@ const Others = () => {
   }
 
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12 relative">
       <h2 className="font-black text-3xl w-fit mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Community Miscellaneuos</h2>
       <div className="mx-auto flex space-x-8 w-full">
         <div className="w-full flex items-center space-x-6 rounded-3xl border-eerie-black bg-[#FFEFEF] border-[0.15rem] p-10">
@@ -39,6 +39,7 @@ const Others = () => {
           </div>
         </div>
       </div>
+      <span className="rounded-full h-72 w-72 bg-[#E0006C] blur-[200px] opacity-50 absolute -top-20 -right-20 -z-10"></span>
     </div>
   )
 }

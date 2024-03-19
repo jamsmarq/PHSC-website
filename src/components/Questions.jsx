@@ -13,9 +13,9 @@ const Questions = () => {
   }
 
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 mx-auto mt-32 space-y-12">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 mx-auto mt-32 space-y-12 relative">
       <h2 className="font-black text-3xl w-fit mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Frequently Asked Questions</h2>
-      <div className="mx-auto w-[60rem] border-[0.15rem] border-eerie-black rounded-3xl overflow-hidden">
+      <div className="mx-auto w-[60rem] border-[0.15rem] border-eerie-black rounded-3xl overflow-hidden bg-[#FEFFFE]">
         {QuestionsData.map((question, index) => (
           <>
             <div className={`h-fit select-none px-16 py-8 w-full space-y-4 cursor-pointer ${index != (QuestionsData.length - 1) && "border-b-[0.15rem] border-eerie-black"}`} onClick={() => openQuestion(index)}>
@@ -28,6 +28,7 @@ const Questions = () => {
           </>
         ))}
       </div>
+      <span className="rounded-full h-72 w-72 bg-[#A600E0] blur-[200px] opacity-50 absolute -top-20 -left-20 -z-10"></span>
     </div>
   )
 }
