@@ -13,7 +13,7 @@ const Questions = () => {
   }
 
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 mx-auto mt-32 space-y-12 relative">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 mx-auto mt-32 space-y-12 relative scroll-mt-10" id="faqs">
       <h2 className="font-black text-3xl w-fit mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Frequently Asked Questions</h2>
       <div className="mx-auto w-[60rem] border-[0.15rem] border-eerie-black rounded-3xl overflow-hidden bg-[#FEFFFE]">
         {QuestionsData.map((question, index) => (

@@ -6,8 +6,8 @@ const Header = () => {
       <img src="vite.svg" />
       <div className="space-x-6 font-medium tracking-wide">
         <a href="#about">About</a>
-        <a href="#topics">Tracks</a>
-        <a href="#benefits">Features</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#features">Features</a>
         <a href="#faqs">FAQs</a>
         <a href="#contact">Contact</a>
       </div>

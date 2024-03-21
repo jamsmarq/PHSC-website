@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Hero = () => {
+  const [ctaHover, setCtaHover] = useState(false)
+
   return (
     <div className="w-full h-fit relative mx-auto bg-gradient-to-br from-[#E7EFFB] to-[#FBF2E7] pt-20">
       <div className="max-w-screen-xl px-4 md:px-6 xl:px-8 py-4 mx-auto flex flex-col justify-center space-y-10">
         <h1 className="text-7xl font-black mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent py-3">Philippine Student Community</h1>
         <p className="text-xl w-[40rem] mx-auto text-center text-davy-gray font-medium">A community for Filipino learners and educators to foster <span className="text-eerie-black"> transferrable and life-long skills </span> that are not usually taught in traditional classrooms.</p>
         <div className="mx-auto w-fit h-fit space-x-4 flex">
-          <button className="flex items-center gap-x-3 rounded-full bg-red-600 px-6 py-3 font-bold text-white bg-gradient-to-r from-[#0737A4] to-[#BC1532] text-xl">
-            <img width="25" height="25" src="icons/add-user-male.png" alt="add-user-male" className="" />
+          <button className="flex items-center gap-x-3 rounded-full bg-red-600 px-6 py-3 font-bold text-white bg-gradient-to-r from-[#0737A4] to-[#BC1532] text-xl" onMouseEnter={() => setCtaHover(true)} onMouseLeave={() => setCtaHover(false)}>
+            <img width="25" height="25" src="icons/add-user-male.png" alt="add-user-male" className={`${ctaHover && 'hidden'}`} />
             <p>Join community</p>
+            <img width="25" height="25" src="icons/hero-add-arrow.png" alt="hero-add-arrow" className={`${!ctaHover && 'hidden'}`} />
           </button>
           <button className="rounded-full px-6 py-3 font-bold border-2 border-eerie-black text-xl">Learn more</button>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Tracks = () => {
   return (
-    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12" id="tracks">
+    <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto mt-32 space-y-12 scroll-mt-10" id="tracks">
       <div className="flex items-center space-x-4 mx-auto w-fit">
         <h2 className="font-black text-3xl w-fit bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Transferrable skills?</h2>
         <p className="text-xl font-medium">Knowledge that are not usually taught in classrooms.</p>
