@@ -16,6 +16,9 @@ export default {
       backgroundSize: {
         'full': '100%',
       },
+      content: {
+        'icon': 'url("/icons/hero-add-arrow.png")',
+      }
     },
   },
   plugins: [],

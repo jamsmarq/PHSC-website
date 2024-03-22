@@ -10,10 +10,12 @@ const Contact = () => {
           <p className="text-5xl font-black bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent py-3 w-fit text-center">Still got inquiries?</p>
           <p className="text-xl w-[34rem] font-medium">If you have any suggestions, inquiries, and questions, or want to offer a collaboration, feel free to send us a message.</p>
         </div>
-        <button className="w-fit mx-auto flex items-center gap-x-3 rounded-full bg-red-600 px-6 py-3 font-bold text-white bg-gradient-to-r from-[#0737A4] to-[#BC1532] text-xl" onMouseEnter={() => setCtaHover(true)} onMouseLeave={() => setCtaHover(false)}>
-          <img width="25" height="25" src="icons/add-user-male.png" alt="add-user-male" className={`${ctaHover && 'hidden'}`} />
-          <p>Join community</p>
-          <img width="25" height="25" src="icons/hero-add-arrow.png" alt="hero-add-arrow" className={`${!ctaHover && 'hidden'}`} />
+        <button className={`relative mx-auto flex items-center w-[14.8rem] gap-x-3 rounded-full bg-red-600 px-6 py-3 font-bold text-white bg-gradient-to-r from-[#0737A4] to-[#BC1532] text-xl`} onMouseEnter={() => setCtaHover(true)} onMouseLeave={() => setCtaHover(false)}>
+          <div className={`h-fit flex items-center gap-x-3 transition-all duration-300 ease-in-out w-full ${ctaHover && "-translate-x-9"}`}>
+            <img width="25" height="25" src="icons/add-user-male.png" alt="add-user-male" className={`transition-all duration-300 ${ctaHover && "opacity-0"}`} />
+            <p className="whitespace-nowrap">Send a message</p>
+            <img width="25" height="25" src="icons/hero-add-arrow.png" alt="hero-add-arrow" className={`transition-all duration-300 opacity-0 ${ctaHover && "opacity-100"}`} />
+          </div>
         </button>
       </div>
     </div>

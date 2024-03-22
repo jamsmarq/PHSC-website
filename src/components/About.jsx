@@ -21,6 +21,48 @@ const About = () => {
             <div className="flex flex-col space-y-8">
               <h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Be a well-rounded learner and a practical individual</h2>
               <div className="space-y-6">
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex transition-all duration-300 ease-in-out ${aboutFirstPos == 0 && "h-[11.0rem]"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 0 ? "bg-[#9530b1] h-[11rem]" : "bg-transparent h-full"}`}></span>
+                  <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 0 && "translate-y-5"}`}>
+                    <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(0)}>
+                      <img src="about-first.png" width="30" height="30" className="" />
+                      <p className="font-bold text-xl">Develop your skills holistically</p>
+                    </div>
+                    <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+                  </div>
+                </div>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 1 && "h-[11.0rem]"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 1 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                  <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 1 && "translate-y-5"}`}>
+                    <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(1)}>
+                      <img src="about-second.png" width="30" height="30" className="" />
+                      <p className="font-bold text-xl">Cultivate Responsible qualities</p>
+                    </div>
+                    <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+                  </div>
+                </div>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 2 && "h-[11.0rem]"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 2 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                  <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 2 && "translate-y-5"}`}>
+                    <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(2)}>
+                      <img src="about-third.png" width="30" height="30" className="" />
+                      <p className="font-bold text-xl">Know executive functioning skills</p>
+                    </div>
+                    <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+                  </div>
+                </div>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 3 && "h-[11.0rem]"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 3 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                  <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 3 && "translate-y-5"}`}>
+                    <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(3)}>
+
+                      <img src="about-fourth.png" width="30" height="30" className="" />
+                      <p className="font-bold text-xl">Promote Valuable Personal Growth</p>
+                    </div>
+                    <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
+                  </div>
+                </div>
+                {/* 
                 <div className="h-fit space-x-8 flex items-center">
                   <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 0 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
                   <div className="space-y-4 h-fit">
@@ -61,6 +103,7 @@ const About = () => {
                     <p className={`relative font-medium text-davy-gray w-[24rem] left-10 ${aboutFirstPos == 3 ? "relative" : "hidden"}`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
                   </div>
                 </div>
+                */}
               </div>
             </div>
           </div>
