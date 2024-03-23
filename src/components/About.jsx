@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DivFadeIn from "./DivFadeIn";
 
 const About = () => {
   const [aboutFirstPos, setAboutFirstPos] = useState(0);
@@ -6,23 +7,23 @@ const About = () => {
   return (
     <>
       <div className="w-full h-fit bg-cover about-background pt-64 pb-48" id="about">
-        <div className="mx-auto w-fit h-fit flex items-center space-x-10 max-w-screen-xl px-4 md:px-6 xl:px-8">
+        <DivFadeIn className="mx-auto w-fit h-fit flex items-center space-x-10 max-w-screen-xl px-4 md:px-6 xl:px-8">
           <div className="bg-eerie-black w-[0.5rem] h-[16rem] rounded-full bg-gradient-to-b  from-[#BC1531] to-[#0737A4]"></div>
           <div className="space-y-4">
             <p className="uppercase text-[#2044FF] font-bold tracking-widest text-xl">Who is this for?</p>
             <p className="text-2xl w-[45rem] font-medium leading-loose">Simply put, this community is for any Filipino who is eager to learn skills and knowledge typically covered in Philippines' education system. So whether you are a student, educator, professional, or lifelong learner, this community is for you.</p>
           </div>
-        </div>
+        </DivFadeIn>
       </div>
 
       <div className="relative -top-20 space-y-48 max-w-screen-xl px-4 md:px-6 xl:px-20 mx-auto">
-        <div className="flex justify-between items-center relative space-x-10">
+        <DivFadeIn className="flex justify-between items-center relative space-x-10">
           <div className="flex">
             <div className="flex flex-col space-y-8">
               <h2 className="font-black text-3xl w-[24rem] bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Be a well-rounded learner and a practical individual</h2>
               <div className="space-y-6">
-                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex transition-all duration-300 ease-in-out ${aboutFirstPos == 0 && "h-[11.0rem]"}`}>
-                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 0 ? "bg-[#9530b1] h-[11rem]" : "bg-transparent h-full"}`}></span>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex transition-all duration-300 ease-in-out ${aboutFirstPos == 0 && "h-44"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 0 ? "bg-[#ECB822] h-[11rem]" : "bg-transparent h-full"}`}></span>
                   <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 0 && "translate-y-5"}`}>
                     <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(0)}>
                       <img src="about-first.png" width="30" height="30" className="" />
@@ -31,8 +32,8 @@ const About = () => {
                     <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
                   </div>
                 </div>
-                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 1 && "h-[11.0rem]"}`}>
-                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 1 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 1 && "h-44"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 1 ? "bg-[#359C3A] h-[11rem]" : "bg-transparent h-full"}`}></span>
                   <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 1 && "translate-y-5"}`}>
                     <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(1)}>
                       <img src="about-second.png" width="30" height="30" className="" />
@@ -41,8 +42,8 @@ const About = () => {
                     <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
                   </div>
                 </div>
-                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 2 && "h-[11.0rem]"}`}>
-                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 2 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 2 && "h-44"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 2 ? "bg-[#CDA063] h-[11rem]" : "bg-transparent h-full"}`}></span>
                   <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 2 && "translate-y-5"}`}>
                     <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(2)}>
                       <img src="about-third.png" width="30" height="30" className="" />
@@ -51,8 +52,8 @@ const About = () => {
                     <p className={`relative font-medium text-davy-gray w-[24rem] left-10`}>True learning and growth isn't just about what you know; it's about who you become. Excelling academically is important, but it's not the only measure of success in life's journey.</p>
                   </div>
                 </div>
-                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 3 && "h-[11.0rem]"}`}>
-                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 3 ? "bg-eerie-black h-[11rem]" : "bg-transparent h-full"}`}></span>
+                <div className={`h-[2rem] overflow-y-hidden overflow-x-hidden space-x-8 flex w-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 3 && "h-44"}`}>
+                  <span className={` w-[0.4rem] rounded-full ${aboutFirstPos == 3 ? "bg-[#602119] h-[11rem]" : "bg-transparent h-full"}`}></span>
                   <div className={`space-y-4 h-fit transition-all duration-300 ease-in-out ${aboutFirstPos == 3 && "translate-y-5"}`}>
                     <div className="flex items-center gap-x-2 hover:cursor-pointer" onClick={() => setAboutFirstPos(3)}>
 
@@ -109,9 +110,9 @@ const About = () => {
           </div>
           <img src="about-right.png" width="620" height="620" className="" />
           <span className="rounded-full h-72 w-72 bg-[#00B8E0] blur-[200px] opacity-50 absolute -right-20 -z-10"></span>
-        </div>
+        </DivFadeIn>
 
-        <div className="flex justify-between items-center relative -top-20 space-x-10">
+        <DivFadeIn className="flex justify-between items-center relative -top-20 space-x-10">
           <img src="about-left.png" width="620" height="620" className="" />
           <div className="flex">
             <div className="flex flex-col space-y-8">
@@ -141,7 +142,7 @@ const About = () => {
             </div>
           </div>
           <span className="rounded-full h-72 w-72 bg-[#A6E000] blur-[200px] opacity-50 absolute -left-20 -z-10"></span>
-        </div>
+        </DivFadeIn>
       </div>
     </>
   )
