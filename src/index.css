@@ -4,8 +4,8 @@
 
 :root {
   font-family: Satoshi, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
 
   /* color-scheme: light dark; */
   color: #1e1e1e;
@@ -21,10 +21,18 @@
     color: linear-gradient(90deg, #0737A4, 0%, #BC1532, 100%);
 }
 
+.border-blue-to-red {
+    border-image: linear-gradient(90deg, #0737A4, 0%, #BC1532, 100%);
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
     /* letter-spacing: 0.5px; */
+}
+
+.accord-h {
+    height: 11rem;
 }
 
 .about-background {

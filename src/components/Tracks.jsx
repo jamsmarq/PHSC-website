@@ -8,7 +8,7 @@ const Tracks = () => {
         <h2 className="font-black text-3xl w-fit bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent">Transferrable skills?</h2>
         <p className="text-xl font-medium">Knowledge that are not usually taught in classrooms.</p>
       </DivFadeIn>
-      <div className="grid md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-8 w-full mx-auto relative [&_div]:p-5 [&_div]:border-eerie-black [&_div]:w-full [&_div]:h-fit [&_div]:space-y-3 [&_div]:col-span-1 [&_div]:rounded-2xl [&_div]:border-[0.15rem]">
+      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 w-full mx-auto relative [&_div]:p-5 [&_div]:border-eerie-black [&_div]:w-full [&_div]:h-fit [&_div]:space-y-3 [&_div]:col-span-1 [&_div]:rounded-2xl [&_div]:border-[0.15rem]">
         <DivFadeIn className="bg-[#FFEFEF]">
           <img src="tracks-first.png" width="45" height="45" className="" />
           <p className="text-xl font-bold">Business and Finance</p>

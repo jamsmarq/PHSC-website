@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     fontFamily: {
@@ -21,11 +21,16 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'scroll-right': 'infinite-scroll 25s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        'scroll-right': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(100%)' },
         },
       },
     },
