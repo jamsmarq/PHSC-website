@@ -41,18 +41,18 @@ const Tracks = () => {
         </DivFadeIn>
         <DivFadeIn className="bg-[#EFFFFE]">
           <img src="tracks-seventh.png" width="45" height="45" className="" />
-          <p className="text-xl font-bold">Business and Finance</p>
-          <p className="font-medium text-davy-gray w-[19rem]">Essential financial literacy, budgeting, and entrepreneurial skills for personal and professional success.</p>
+          <p className="text-xl font-bold">Technological Proficiency</p>
+          <p className="font-medium text-davy-gray w-[20rem]">Mastering digital tools, navigating online platforms, and leveraging tech innovations for personal and professional growth.</p>
         </DivFadeIn>
         <DivFadeIn className="bg-[#EFF0FF]">
           <img src="tracks-eight.png" width="45" height="45" className="" />
-          <p className="text-xl font-bold">Business and Finance</p>
-          <p className="font-medium text-davy-gray w-[19rem]">Essential financial literacy, budgeting, and entrepreneurial skills for personal and professional success.</p>
+          <p className="text-xl font-bold">National and Cultural Heritage</p>
+          <p className="font-medium text-davy-gray w-[19rem]">Appreciating the rich history, traditions, and cultural diversity of the Philippines to foster national identity and cultural pride.</p>
         </DivFadeIn>
         <DivFadeIn className="bg-[#FFFAEF]">
           <img src="tracks-ninth.png" width="45" height="45" className="" />
-          <p className="text-xl font-bold">Business and Finance</p>
-          <p className="font-medium text-davy-gray w-[19rem]">Essential financial literacy, budgeting, and entrepreneurial skills for personal and professional success.</p>
+          <p className="text-xl font-bold">Social Responsibility</p>
+          <p className="font-medium text-davy-gray w-[19rem]">A sense of civic duty, promoting community involvement, and advocating for social justice and equity.</p>
         </DivFadeIn>
         <span className="rounded-full h-72 w-72 bg-[#0400e0] blur-[200px] opacity-50 absolute top-32 left-20 -z-10"></span>
       </div>
