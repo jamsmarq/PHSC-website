@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <div className="w-full h-fit relative mx-auto bg-gradient-to-br from-[#E7EFFB] to-[#FBF2E7] pt-20">
       <DivFadeIn className="max-w-screen-xl px-4 md:px-6 xl:px-8 py-4 mx-auto flex flex-col justify-center space-y-10">
-        <h1 className="text-7xl font-black mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent py-3">Philippine Student Community</h1>
+        <h1 className="w-[40rem] leading-tight text-center lg:w-fit text-7xl font-black mx-auto bg-gradient-to-r from-[#0737A4] to-[#BC1532] bg-clip-text text-transparent py-3">Philippine Student Community</h1>
         <p className="text-xl w-[40rem] mx-auto text-center text-davy-gray font-medium">A community for Filipino learners and educators to foster <span className="text-eerie-black"> transferrable and life-long skills </span> that are not usually taught in traditional classrooms.</p>
         <div className="mx-auto w-fit h-fit space-x-4 flex">
           {/* <button className="flex items-center gap-x-3 rounded-full bg-red-600 px-6 py-3 font-bold text-white bg-gradient-to-r from-[#0737A4] to-[#BC1532] text-xl" onMouseEnter={() => setCtaHover(true)} onMouseLeave={() => setCtaHover(false)}>
@@ -38,8 +38,8 @@ const Hero = () => {
 
       {/* Hero 3d Assets */}
       <DivFadeIn className="relative flex justify-between w-full mx-auto max-w-screen-2xl">
-        <img src="hero-left.png" width="405" height="405" className="absolute -left-20 -top-48" />
-        <img src="hero-right.png" width="405" height="405" className="absolute -right-20 -top-48" />
+        <img src="hero-left.png" width="405" height="405" className="absolute -left-40 w-[350px] -top-40 lg:w-[405px] lg:-left-20 lg:-top-48" />
+        <img src="hero-right.png" width="405" height="405" className="absolute -right-40 w-[350px] -top-40 lg:w-[405px] lg:-right-20 lg:-top-48" />
       </DivFadeIn>
 
       {/* Stats Data */}
