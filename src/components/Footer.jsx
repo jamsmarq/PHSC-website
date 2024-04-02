@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="max-w-screen-xl px-4 md:px-6 xl:px-20 w-full mx-auto flex items-center justify-between">
           <p className="font-medium text-davy-gray text-sm">© 2024 Philippine Student Community. All rights reserved.</p>
-          <p className="font-medium text-davy-gray text-sm">Designed & Programmed by <a className="underline" target="_blank" href="https://www.linkedin.com/in/jamsmarq">jamsmarq</a>. Windows icons by <a className="underline" target="_blank" href="https://icons8.com/icons/family-windows">Icons8</a>.</p>
+          <p className="font-medium text-davy-gray text-sm">Designed & Coded by <a className="underline" target="_blank" href="https://www.linkedin.com/in/jamsmarq">jamsmarq</a>. Windows icons by <a className="underline" target="_blank" href="https://icons8.com/icons/family-windows">Icons8</a>.</p>
         </div>
       </div>
     </>

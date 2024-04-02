@@ -22,14 +22,14 @@ const Questions = () => {
             <div className={`h-fit select-none px-16 py-8 w-full space-y-4 cursor-pointer ${index != (QuestionsData.length - 1) && "border-b-[0.15rem] border-eerie-black"}`} onClick={() => openQuestion(index)}>
               <div className="flex items-center w-full justify-between">
                 <p className="font-bold text-xl">{question[0]}</p>
-                <img src="questions-arrow.png" width="20" height="20" className={`${openIndex == index && "rotate-180"}`} />
+                <img src="icons/questions-arrow.png" width="20" height="20" className={`${openIndex == index && "rotate-180"}`} />
               </div>
               <p className={`font-medium text-davy-gray text-lg ${openIndex != index && "hidden"}`}>{question[1]}</p>
             </div>
           </>
         ))}
       </DivFadeIn>
-      <span className="rounded-full h-72 w-72 bg-[#A600E0] blur-[200px] opacity-50 absolute -top-20 -left-20 -z-10"></span>
+      <span className="rounded-full h-72 w-72 bg-[#e07b00] blur-[200px] opacity-50 absolute -top-20 -right-20 -z-10"></span>
     </div>
   )
 }

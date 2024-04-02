@@ -27,7 +27,7 @@ const Homepage = () => {
   return (
     <>
       <Hero />
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <About />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
@@ -53,7 +53,7 @@ const Homepage = () => {
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <Others />
-      </Suspense>
+      </Suspense> */}
       {/* <Contact /> */}
     </>
   )

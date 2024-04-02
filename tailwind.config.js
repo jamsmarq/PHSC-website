@@ -21,7 +21,7 @@ export default {
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
-        'scroll-right': 'infinite-scroll 25s linear infinite',
+        'scroll-right': 'scroll-right 25s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
