@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import DivFades from "./DivFades";
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -10,8 +11,8 @@ const Header = () => {
 
   return (
     <div className="relative flex flex-col justify-center max-w-screen-xl mx-auto w-full bg-transparent">
-      <div className="flex items-center justify-between mx-auto w-full px-10 lg:px-6 xl:px-8 py-4 z-20 bg-white">
-        <img src="vite.svg" className={`transition-all duration-1000 ease-in-out opacity-10 relative -translate-y-20 ${isVisible && "opacity-100 translate-y-0"}`} />
+      <div className="flex items-center justify-between mx-auto w-full px-6 lg:px-6 xl:px-8 py-4 z-20 bg-white">
+        <img src="vite.svg" width={31} height={31} className={`relative`} />
         <div className={`hidden lg:block space-x-6 font-medium tracking-wide transition-all duration-1000 ease-in-out opacity-0 relative -translate-y-20 ${isVisible && "opacity-100 translate-y-0"}`}>
           <a href="#about">About</a>
           <a href="#tracks">Tracks</a>
